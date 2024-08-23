@@ -1,0 +1,9 @@
+langchain-experimental 
+langchain-community 
+langchain-core 
+langchain 
+langchain-groq
+requests
+beautifulsoup4
+networkx
+streamlit
