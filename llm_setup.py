@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 def initialize_llm() -> ChatGroq:
     # Retrieve the API key from environment variables
     os.environ["GROQ_API_KEY"] = st.secrets["groq_api_key"]
-    api_key = os.environ.get("GROQ_API_KEY")
+    api_key = os.environ["GROQ_API_KEY"]
     
     
     if not api_key:
